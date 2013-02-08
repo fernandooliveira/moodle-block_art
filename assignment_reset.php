@@ -66,7 +66,7 @@ $PAGE->set_heading($course->fullname);
 $PAGE->set_title($streditinga);
 $PAGE->set_cacheable(false);
 
-$PAGE->requires->css('/blocks/fn_assignment_reset/styles.css');
+$PAGE->requires->css('/blocks/fn_assignment_reset/style.css');
 
 echo $OUTPUT->header();
 echo $OUTPUT->heading_with_help($pageheading, '', 'assign', 'icon');
