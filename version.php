@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->version  = 2013011700;
 $plugin->cron     = 0;
-$plugin->requires = 2010112400; // Moodle 2.0+
+$plugin->requires = 2012062500; // Moodle 2.3+
 $plugin->release  = '2.x (Build: 2012120700)';
 $plugin->component = 'block_fn_assignment_reset';
 $plugin->maturity = MATURITY_ALPHA;
