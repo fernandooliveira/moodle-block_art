@@ -16,19 +16,18 @@
 
 
 /**
-* Keeps track of the version number
-*
-* @package block
-* @subpackage fn_assignment_reset
-* @copyright 2013 MoodleFN
-* @author MoodleFN - www.moodlefn.knet.ca
-*/
+ * Keeps track of the version number
+ *
+ * @package    block
+ * @subpackage fn_assignment_reset
+ * @author     Fernando Oliveira - MoodleFN {@link http://moodlefn.knet.ca}
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version  = 2013011700;
-$plugin->cron     = 0;
-$plugin->requires = 2012062500; // Moodle 2.3+
-$plugin->release  = '2.x (Build: 2012120700)';
-$plugin->component = 'block_fn_assignment_reset';
+$plugin->version = 2013031401;
+$plugin->requires = 2012062500; // 2.3 
 $plugin->maturity = MATURITY_ALPHA;
+$plugin->component = 'block_fn_assignment_reset';
+$plugin->release = '2.4';
