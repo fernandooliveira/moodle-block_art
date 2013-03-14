@@ -9,6 +9,7 @@ class fn_assignment_reset_form extends moodleform {
         
         $mform    = $this->_form;
 
+        $mform->addElement('html', '<div class="assignment_reset">');
         $mform->addElement('header', 'configheader', get_string('gradetopass_header','block_fn_assignment_reset'));
 
         $gradetopass_options = array();        
@@ -228,6 +229,7 @@ class fn_assignment_reset_form extends moodleform {
             $noscriptwarning = $mform->createElement('static', 'warning', null,  html_writer::tag('noscript', get_string('changegradewarning', 'mod_assign')));
             $mform->insertElementBefore($noscriptwarning, 'grade');
         }
+        $mform->addElement('html', '</div>');
     }
 
 

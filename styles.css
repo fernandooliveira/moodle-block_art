@@ -1,12 +1,12 @@
-.mform .fitem .fitemtitle {
+.assignment_reset  .fitem .fitemtitle {
     width: 35% !important;
 }
 
-.mform .fitem .felement {
+.assignment_reset  .fitem .felement {
     margin-left: 36% !important;
     width: 60% !important;
 }
 
-.mform .fitem fieldset.felement {
+.assignment_reset .fitem fieldset.felement {
     margin-left: 35% !important;    
 }
