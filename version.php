@@ -26,7 +26,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2013031401;
+$plugin->version = 2013031402;
 $plugin->requires = 2012062500; // 2.3 
 $plugin->maturity = MATURITY_ALPHA;
 $plugin->component = 'block_fn_assignment_reset';

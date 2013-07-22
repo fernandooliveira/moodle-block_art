@@ -115,7 +115,7 @@ class fn_assignment_reset_form extends moodleform {
         if ($COURSE->maxbytes == 0) {
             $choices[0] = get_string('siteuploadlimit', 'assignsubmission_file');
         } else {
-            $choices[0] = get_string('courseuploadlimit') . ' (' . display_size($COURSE->maxbytes) . ')';
+            $choices[0] = 'Course upload limit' . ' (' . display_size($COURSE->maxbytes) . ')';
         }
         $settings[] = array('type' => 'select',
                             'name' => 'maxsubmissionsizebytes',
@@ -150,6 +150,7 @@ class fn_assignment_reset_form extends moodleform {
         
         $courseid = optional_param('id', 0, PARAM_INT);
         $mform->addElement('hidden', 'id', $courseid);
+        $mform->setType('id', PARAM_INT); 
         
 
         // Conditional activities: completion tracking section
