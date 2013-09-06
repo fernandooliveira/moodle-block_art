@@ -1,9 +1,12 @@
-moodlefn-assignment_reset
-=========================
+MoodleFN - Assignment Reset Tool 
+============================================
 
-Moodle Block - reset the Assignment Options for all assignment activities in a course 
+Locate the plugin manual here for more information about this plugin: http://moodlefn.com/docs/  
 
-Readme document can be found here:
+============================================
 
-https://github.com/fernandooliveira/moodlefn-assignment_reset/blob/master/MoodleFN_Assignment_Reset_Tool.pdf?raw=true
-
+- Name: Assignment Reset Tool (ART)
+- Type: Block
+- Moodle version required: 2.4 or 2.5
+- Support and Feedback: www.moodlefn.knet.ca 
+- List all MoodleFN Plugins: https://moodle.org/plugins/browse.php?list=contributor&id=13267
